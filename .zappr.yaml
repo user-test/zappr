@@ -13,25 +13,16 @@ approvals:
     orgs:
       # a public zalando org member
       # (any org in here counts)
-      - zalando
+      #- zalando
     # OR a collaborator of the repo
     collaborators: true
     # OR one of these guys
     users:
-      - prayerslayer
-      - mfellner
+      - user-test
+      - user-test2
   # you can define groups from which you
   # require approvals
-  groups:
-    # this defines a "zalando" approver group
-    zalando:
-      # where the approval check will fail if there
-      # is less than 1 approval from it
-      minimum: 1
-      # the group includes every public zalando org member
-      from:
-        orgs:
-          - zalando
+
 commit:
   message:
     # note that there are no default patterns for commit messages
