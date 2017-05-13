@@ -37,8 +37,6 @@ commit:
     # note that there are no default patterns for commit messages
     patterns:
       - "^#[0-9]+" # has to begin with hash # and at least one number
-        # OR
-      - "^??????$" # be three piles of poo
 autobranch:
   # things in curly brackets are variables that
   # will be replaced. possible variables:
